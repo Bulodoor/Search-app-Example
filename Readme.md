@@ -1,5 +1,5 @@
 # Search App
 
-Bu uygulamada **Fetch API** kullanarak [Unsplash](https://api.unsplash.com) sitesine girmiş olduğumuz kelime ile eşlenen fotoğrafların bilgilerini bize getirip ve bizimde bu bilgilerin içinde bulunan resimlerin URL bağlantılarını alıp, resimleri JavaScript ile dinamik bir şekilde ekrana bu resimlerimizi getirmiş bulunuyoruz.
+Bu uygulamada, Fetch API kullanarak Unsplash sitesine girdiğimiz kelime ile eşleşen fotoğrafların bilgilerini alıyoruz. Ardından bu bilgiler içinde bulunan resimlerin URL bağlantılarını alıp, JavaScript ile dinamik bir şekilde ekrana getiriyoruz.
 
 Uygulamanın bağlantısı: https://search-app-example.vercel.app/
