@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Search Photo</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="form-wrapper">
+			<div id="form-box">
+				<h1 id="title-search">Search a Photo</h1>
+				<form id="form">
+					<div>
+						<input
+							id="searchInput"
+							placeholder="Make a search."
+							type="text"
+						/><label for="searchInput"
+							><i class="fa-solid fa-magnifying-glass"></i
+						></label>
+					</div>
+
+					<div class="buttonWrapper">
+						<button id="searchButton">Search</button>
+						<button id="clearButton">Clear</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="image-wrapper"></div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
